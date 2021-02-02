@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
+
+    <title>Login/Registreer</title>
+
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            background-image: url("welcome.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%;
+            height: auto;
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0,5;
+        }
+
+
+        .formulier {
+            font-family: 'Poppins', sans-serif;
+            color:rgb(78, 75, 75);
+            margin-top: 300px;
+        }
+
+        .button {
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .vak {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .voorwaarden {
+            font-size: 11px;
+        }
+
+        .login {
+            text-align: center;
+            color: black;
+        }
+
+        .restaurant {
+            text-decoration: underline;
+            color: rgba(8, 66, 28, 0.575);
+            margin-top: 150px;
+            text-align: center
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row formulier">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+            <div class="login"> Login - Registreer </div>
+                <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control vak" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail*">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <input type="naam" class="form-control vak" id="exampleInputPassword1" placeholder="Naam">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="adres" class="form-control vak" id="exampleInputPassword1" placeholder="Adres*">
+                        <small id="emailHelp" class="form-text text-muted" >*Gelieve uw locatievoorzieningen aan te zetten indien u steeds de restaurants in uw buurt wil zien</small>
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input vak" id="exampleCheck1">
+                      <label class="form-check-label voorwaarden" for="exampleCheck1">Ik ga akkoord met de gebruikersvoorwaarden en de privacywetgeving van Foodify</label>
+                    </div>
+                    <br>
+                    <div class="button">
+                    <button type="submit" class="btn btn-success button">Login</button>
+                    </div>
+                  </form>
+
+                  <div class="restaurant">
+                      Restaurant aanmelden
+                  </div>
+                
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>

@@ -138,3 +138,82 @@ p{
     color: black;
     font-weight: bold;
 }
+ 
+@media only screen and (max-width:1180px) {
+    
+    .cart-meal-edit-buttons{
+        float:none;
+        width:80%; 
+    }
+    
+    .cart-meal-extra{
+        float: none;
+        width:100%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .btn {
+        width: 10%;
+        padding: 0px;
+        
+    }
+    .bi-cart2 {
+        float: right;
+        margin-right: -10px;
+       
+    }
+    .icon {
+        margin-top:-74px;
+    }
+
+    .row1 {
+        margin-bottom: 0px
+    }
+
+    .btn-pay {
+        width:30%;
+        ;
+        min-height: 60px;
+        
+    }
+    .btn-add {
+        width:30%;
+        
+        min-height: 60px;
+    }
+    .col- {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:415px) {
+   .cart-meal-name{
+      min-width: 70%;
+      margin-right: 2px;
+   }
+    .cart-meal-edit-buttons {
+       float:left;
+       margin-left:20%;
+       margin-right:20%;
+       margin-top: 20px;
+       padding: 10px 20px;
+       
+
+    }
+    .cart-meal-price{
+        float: right;
+        margin-left: 10px;
+        margin-right: 20px;
+        
+
+    }
+
+    .btn{
+
+    }
+}
+
+
+
