@@ -6,7 +6,7 @@ body {
 .headimg {
     height: 150px;
     min-height: 150px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg");
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

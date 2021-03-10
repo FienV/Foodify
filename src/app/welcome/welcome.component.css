@@ -1,5 +1,5 @@
 body {
-    background-image: url("welcome.jpg");
+    /*background-image: url("welcome.jpg");*/
     background-position: center;
     background-attachment: fixed;
     width: 100%;
@@ -17,4 +17,9 @@ h1 {
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 60px;
+}
+
+.button {
+    border-radius: 20px;
+    text-align: center;
 }
